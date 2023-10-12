@@ -82,7 +82,7 @@ nav a:hover {
 
 .book,
 .join {
-    background-color: #001427;
+    background-color: #003459;
     color: #ffffff;
     text-decoration:none;
 }
@@ -94,7 +94,7 @@ nav a:hover {
 }
 
 .msg {
-    background-color: #00171f;
+    background-color: #003459;
     color: #ffffff;
 }
 
@@ -132,12 +132,6 @@ nav a {
     color: black;
 }
 
-
-
-footer a:hover {
-    background-color: #00a8e8;
-    color: #001427;
-}
 
 .logo, .icon{
     width: 80px;
