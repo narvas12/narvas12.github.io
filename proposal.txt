@@ -1,0 +1,13 @@
+Website Proposal: Art Gallery Showcase
+
+Purpose:
+The purpose of the website is to create an online platform for artists to showcase their artwork to a global audience. The website will allow artists to easily upload their art and provide information about their creations. Visitors can explore a diverse range of artwork, discover talented artists, and engage with the art community.
+
+Intended Audience:
+The intended audience for the website includes artists looking for a platform to exhibit their work, art enthusiasts interested in discovering new talent, collectors searching for unique pieces, and anyone who appreciates visual art. The website will serve as an informative and interactive hub for art lovers and creators, facilitating the global exchange of artistic expressions. 
+
+Technical Details:
+This website will be developed using basic HTML and CSS, making it accessible to a wide range of users and devices. The focus is on delivering a user-friendly and visually appealing experience to showcase art while providing relevant information about the artists and their creations.
+
+
+https://www.tradingview.com/widget/crypto-mkt-screener/

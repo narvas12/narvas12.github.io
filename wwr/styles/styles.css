@@ -1,38 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300&display=swap');
 
 :root {
-    /* change the values below to your colors from your palette */
+    /* Color Variables */
     --primary-color: #00171f;
     --secondary-color: #003459;
     --accent1-color: #007ea7;
     --accent2-color: #00a8e8;
     --accent3-color: #ffffff;
-
-    /* change the values below to your chosen font(s) */
-    --heading-font: 'Kanit', sans-serif;
-    --paragraph-font: 'Rubik', sans-serif;
-
-
-    /* these colors below should be chosen from among your palette colors above */
     --headline-color-on-white: #ffffff;
-    /* headlines on a white background */
-    --headline-color-on-color: ffffff;
-    /* headlines on a colored background */
+    --headline-color-on-color: #ffffff;
     --paragraph-color-on-white: #001427;
-    /* paragraph text on a white background */
-    --paragraph-color-on-color: ffffff;
-    /* paragraph text on a colored background */
+    --paragraph-color-on-color: #ffffff;
     --paragraph-background-color: #00171f;
     --nav-link-color: #003459;
     --nav-background-color: #001427;
-    --nav-hover-link-color: ffffff;
+    --nav-hover-link-color: #ffffff;
     --nav-hover-background-color: #00171f;
+
+    /* Font Variables */
+    --heading-font: 'Kanit', 'Bradley Hand', sans-serif;
+    --paragraph-font: 'Rubik', 'Bradley Hand', sans-serif;
 }
 
+body {
+    background-color: var(--background-color);
+    font-family: var(--paragraph-font);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    margin: 0;
+}
 
+p, a {
+    font-family: var(--paragraph-font);
+}
 
+main section img {
+    box-sizing: border-box;
+}
 
+#logo-link {
+    padding-top: 5px;
+}
+
+.home-title {
+    font-size: 2em;
+    margin-top: 10px;
+}
 
 #content {
     max-width: 1600px;
@@ -41,102 +59,109 @@
 
 nav a {
     text-align: center;
+    padding: 35px;
+    color: var(--headline-color-on-color);
+    text-decoration: none;
+    text-align: center;
 }
 
-#hero-msg h1,
-#hero-msg h4 {
-    text-align: center;
+.card-img {
+    border: 10px solid #003459;
+}
 
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
 }
 
 .button-box {
-
     text-align: center;
 }
 
 main section {
     text-align: center;
-
 }
 
 #background {
     height: 725px;
-    background-color: #003459;
-}
-
-
-body {
-    background-color: #fff;
-
+    background-color: var(--secondary-color);
 }
 
 header {
-    background-color: #00171f;
+    background-color: var(--primary-color);
     color: #ffffff;
 }
 
 nav a:hover {
-    background-color: #00a8e8;
-    color: #001427;
+    background-color: var(--accent2-color);
+    color: var(--paragraph-color-on-color);
 }
 
-.book,
-.join {
-    background-color: #003459;
+.book, .join {
+    background-color: var(--secondary-color);
     color: #ffffff;
-    text-decoration:none;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
-.book:hover,
-.join:hover {
-    background-color: #00a8e8;
-    color: #001427;
+.book:hover, .join:hover {
+    background-color: var(--accent2-color);
+    color: var(--paragraph-color-on-color);
 }
 
 .msg {
-    background-color: #007ea7;
+    background-color: var(--accent1-color);
     color: #ffffff;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
-.msg h2 {
-    color: #ffffff;
+
+.rivers-card, .camping-card, .rapids-card  { 
+    margin: 200px 0;
 }
 
-.msg p {
+.msg h2, .msg p {
     color: #ffffff;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 
 footer {
-    background-color: #001427;
+    background-color: var(--nav-background-color);
     color: #ffffff;
-}
-footer a{
- color: #ffffff;
- text-decoration:none;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
-footer a:hover{
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
     text-decoration: underline;
 }
 
-footer p{
+footer p {
     font-size: 1.2em;
-}
-
-nav a {
-    color: #ffffff;
-    text-decoration:none;
 }
 
 .home-title {
     color: black;
 }
 
-
-.logo, .icon{
+.icon {
+    padding-top: 10px;
     width: 80px;
 }
 
-#hero-img{
+#hero-img {
     width: 100%;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
