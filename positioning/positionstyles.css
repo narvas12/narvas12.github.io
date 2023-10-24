@@ -194,7 +194,7 @@
 /* Activity 6 styles */
 .content6 {
   /* This is the parent of the activity 6 boxes. */
-  height: 1000px;
+  height: 30rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   position: relative;
@@ -202,7 +202,7 @@
 
 .red6 {
   width: 70%;
-  height: 250px;
+  height: 40%;
   background-color: red;
   position: absolute;
   top: 0%;
