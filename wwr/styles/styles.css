@@ -106,7 +106,7 @@ main section img {
     transition: transform .5s;
     box-shadow: 5px 5px 10px #001427;
     max-width: 500px;
-    min-height: 500px;
+    max-height: 500px;
     
 }
 
